@@ -4,8 +4,51 @@ body {
 
 h1{
     text-align: center;
+    text-decoration: underline;
+  
 }
 
 h6{
     text-align: center;
+   
+}
+
+.title{
+text-align: center;
+
+}
+
+p .talent{
+    text-align: justify; 
+}
+
+.links{
+    text-align: center;
+}
+.competencies{
+    text-align: center;
+}
+
+.skills{
+    text-align: left;
+    margin: auto;
+}
+
+.certifications{
+    text-align: center;
+}
+
+.certs td{
+    text-align: left;
+    margin: auto;
+    
+}
+
+.education{
+    text-align: center;
+}
+
+table .edu{
+    text-align: left;
+    margin: auto;
 }
