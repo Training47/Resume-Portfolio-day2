@@ -32,6 +32,7 @@ p .talent{
 .skills{
     text-align: left;
     margin: auto;
+    width: 700px;
 }
 
 .certifications{
@@ -40,15 +41,49 @@ p .talent{
 
 .certs td{
     text-align: left;
-    margin: auto;
+    margin-left: 30px;
+    padding-left: 30px;
+    vertical-align: top;
     
 }
 
-.education{
+.subedu {
     text-align: center;
+    padding-bottom: 0px;
 }
 
 table .edu{
+    display: flex;
+    margin: auto;
+    padding-top: 0px;
+    font-size: 10px;
+    width: 100%;
+    vertical-align: top;
+   
+}
+
+.experience{
+    text-align: left;
+    
+}
+
+.projects{
     text-align: left;
     margin: auto;
+    width: 900px;
+}
+
+.pro{
+    text-align: center;
+}
+
+.place{
+    width: 800em;
+    text-align: left;
+}
+
+td.date{
+width: 100em; 
+text-align: right;
+
 }
