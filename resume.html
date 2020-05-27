@@ -13,16 +13,28 @@
     <meta name = "revised" content = "Added meta tags, 5/26/20.">
     <link rel="author" href="humans.txt" />
     <link rel="icon" href="LP logo.png" type="image/png" sizes="16x16">
-</head>
+    </head>
 
 <body>
-      <h1> Lisa Peña</h1>
+  <header>
+    <span class="logo">My WebSite</span>
+  <a id="toggleMenu">Menu</a>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+</header>
+     <h1> Lisa Peña</h1>
       <h6>Email: lisapena13@gmail.com/IL/Phone</h6>
       <div class="links">
     <br><a href="www.linkedin.com/in/lisa-peña" target="_blank" rel="noopener">LinkedIn</a></br>
      <a href=""  target="_blank" rel="resume">Github</a>
       <!--github and codepen link when it works here--->
         </div>
+
 <main>
 <p class="title" alt="title"><strong>Full Stack Web and Hybrid Mobile Application Developer (In-Training)</strong></p>
 <section class="description">
@@ -157,11 +169,22 @@
 </table>
 
 </section>
-
-
-
 </main>
+<script>
 
+  var toggleMenu = document.getElementById('toggleMenu');
+  var nav = document.querySelector('nav');
+  toggleMenu.addEventListener(
+    'click',
+    function(){
+      if(nav.style.display=='block'){
+        nav.style.display='none';
+      }else{
+        nav.style.display='block';
+      }
+    }
+  );
+</script>
 
 </body>
 </html>
